@@ -29,20 +29,20 @@ const Bounce4s = styled(Missile)`
 const Missiles: React.FC = () => {
     return (
         <MissilesContainer>
-            <Bounce2s>
+            <Bounce2s className="missile">
                 <ReactSVG
                 src="missile.svg"
                 />
             </Bounce2s>
-            <Bounce3s>
+            <Bounce3s className="missile">
                 <ReactSVG
                 src="missile.svg"
                 />
             </Bounce3s>
-            <Bounce4s>
+            <Bounce4s className="missile">
                 <ReactSVG
                 src="missile.svg"
-                />  
+                />
             </Bounce4s>
         </MissilesContainer>
     );

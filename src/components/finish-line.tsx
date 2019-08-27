@@ -9,7 +9,7 @@ const Symbol = styled.div`
 
 const FinishLine: React.FC = () => {
     return (
-      <Symbol>
+      <Symbol id="finishLine">
           <ReactSVG
               src="finish-line.svg"
             />

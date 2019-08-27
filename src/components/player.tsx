@@ -1,6 +1,6 @@
 import React, {useState, useContext, useEffect} from 'react';
 import ReactSVG from 'react-svg';
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import PlayerContext from '../context/player-info';
 
 const containerStyling: React.CSSProperties = {
